@@ -1,0 +1,419 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 240px;
+    height: auto;
+    padding: 0px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar1 {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu a {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.menu p {
+    color: #ffffff;
+    margin-right: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cata-bar .dropdown-toggle::after {
+    display: none;
+}
+
+.btn-group .bars {
+    width: 0px;
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+.btn-group {
+    width: 250px;
+    height: 50px;
+}
+
+.btn-group .btn {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cata-bar .btn {
+    background-color: #ff0000;
+    border: 0;
+}
+
+.cart {
+    width: 100%;
+    padding: 0px;
+}
+
+.nrp p {
+    margin-bottom: 0px;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cart_Div {
+    /* width: 15%; */
+    color: white;
+}
+
+.nrp {
+    display: flex;
+    color: #ffffff;
+    /* width: 18%; */
+    align-items: center;
+}
+
+.header-logo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nrp i {
+    font-size: 20px;
+}
+
+.login_div {
+    color: black;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login a {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.login i {
+    font-size: 25px;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    margin-bottom: 0px;
+    padding: 10px 12px;
+    border-radius: 100%;
+}
+
+.signup {
+    margin-bottom: 0px;
+    white-space: nowrap;
+    font-size: 23px;
+    font-weight: 600;
+    margin-right: 14px;
+    color: black;
+}
+
+.search-bar {
+    margin-bottom: 0px;
+}
+
+html body {
+    background-color: #F2F2F2;
+}
+
+.banner1 {
+    margin-bottom: 20px;
+    display: flex;
+    height: 450px;
+}
+
+.banner2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner2 {
+    height: 364px;
+}
+
+.banner1 img {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.all-products-cards {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.sub-name {
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+.main-name {
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.search-bar .input-group {
+    width: 600px;
+    height: 50px;
+}
+
+.footer-top {
+    padding: 60px 0;
+    background: #000000;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+a:link {
+    color: #f05454;
+}
+
+.logo-footer {
+    max-width: 275px;
+    margin-top: 0;
+    margin-bottom: 18px;
+    margin-left: -5px;
+    padding: 0;
+}
+
+.search-bar input {
+    background-color: #ECECEC;
+}
+
+.search-bar .btn {
+    width: 150px;
+    background-color: #FF0000;
+    color: white;
+    border: 1px solid #FF0000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.item {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border: solid 4px #FF0000;
+    margin: 5px 4px 10px 4px;
+}
+
+.item img {
+    border-radius: 4px;
+}
+
+.main-name::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 175px;
+    background-color: #FF0000;
+}
+
+.arrivals::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 148px;
+    background-color: #FF0000;
+}
+
+.team {
+    color: #f05454
+}
+
+.team:hover {
+    color: #f05454;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 40%;
+    left: -60px;
+}
+
+.item {
+    position: relative;
+}
+
+.product-btn {
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s all cubic-bezier(0.18, 0.89, 0.32, 1.28)
+}
+
+.owl-stage {
+    margin-bottom: 20px;
+}
+
+.product-btn a {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.4s all cubic-bezier(0.18, 0.89, 0.32, 1.28)
+}
+
+.owl-nav button {
+    width: 50px;
+    height: 50px;
+    /* border: solid 1px red !important; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    background-color: white !important;
+    font-size: 45px !important;
+    font-weight: 400 !important;
+    box-shadow: 0px 3px 6px 0px #aaa;
+}
+
+.owl-nav button:hover {
+    background-color: #FF0000 !important;
+}
+
+.owl-nav button:focus {
+    outline: none !important;
+}
+
+.owl-next {
+    right: -60px;
+    position: absolute;
+    top: 40%;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.footer-icon i {
+    color: #f05454
+}
+
+.banner_div img {
+    border-radius: 3px;
+}
+
+.section-line {
+    margin-bottom: 60px;
+    margin-top: -12px;
+    width: 170px;
+    margin-left: 60px;
+}
+
+.sub-name {
+    font-weight: 400px;
+}
+
+.item:hover .product-btn {
+    bottom: 5px;
+    transition: 0.4s all cubic-bezier(0.18, 0.89, 0.32, 1.28)
+}
+
+.item:hover .product-btn a {
+    font-size: 20px;
+    transition: 0.4s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    padding: 10px 25px;
+}
+
+.card-info-text h1 {
+    font-size: 20px;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.card-info-text {
+    padding: 10px 45px 0 2px;
+}
+
+.card-info-text p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.card-list {
+    margin-bottom: 30px;
+}
+
+.card-img-div {
+    box-shadow: 0 3px 5px 0 #a0a0a0;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-icon a {
+    border: solid 1px red;
+    border-radius: 100%;
+    background: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    margin-right: 5px;
+}
+
+.card-icon {
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(37, 37, 37, 0.77);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.card-img-div:hover .card-icon {
+    opacity: 1;
+    transition: 0.4s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.card-img-div {
+    height: 340px;
+    align-items: center;
+    display: flex;
+}
