@@ -289,6 +289,9 @@ a:link {
     transition: 0.4s all cubic-bezier(0.18, 0.89, 0.32, 1.28)
 }
 
+
+/* .. */
+
 .owl-nav button {
     width: 50px;
     height: 50px;
@@ -304,6 +307,10 @@ a:link {
 
 .owl-nav button:hover {
     background-color: #FF0000 !important;
+}
+
+.owl-nav {
+    position: unset;
 }
 
 .owl-nav button:focus {
