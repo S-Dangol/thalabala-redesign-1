@@ -979,3 +979,18 @@ ul {
 
 
 /* product-page-css-end */
+
+.cd-dropdown {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+}
+
+.cd-dropdown.dropdown-is-active {
+    transform: translateY(0);
+}
