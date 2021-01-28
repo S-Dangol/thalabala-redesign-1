@@ -1047,3 +1047,17 @@ ul {
 .path {
     font-size: 12px;
 }
+
+.bottom-text {
+    display: flex;
+    justify-items: center;
+    position: relative;
+}
+
+.bottom-text button {
+    height: 40px;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    border: solid 2px red;
+}
