@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .logo {
@@ -993,4 +993,57 @@ ul {
 
 .cd-dropdown.dropdown-is-active {
     transform: translateY(0);
+}
+
+.border-1 {
+    border: solid 1px black;
+}
+
+.product-card-big {
+    margin: 0px 5px;
+}
+
+.product-wrapper {
+    margin-top: 25px;
+}
+
+.product-text {
+    padding-top: 20px;
+    width: 65%;
+    font-size: 35px;
+}
+
+.product-row {
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.product-title {
+    font-weight: 400 !important;
+}
+
+.description {
+    font-size: 25px;
+    font-weight: 400 !important;
+    margin: 20px 0 15px 0;
+}
+
+.description-text {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.line {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 0;
+    height: 3px;
+    width: 333px;
+    background-color: #FF0000;
+}
+
+.path {
+    font-size: 12px;
 }
