@@ -1061,3 +1061,19 @@ ul {
     top: 0;
     border: solid 2px red;
 }
+
+.filter-tab {
+    margin-right: 20px;
+}
+
+.search-tab-img {
+    height: 255px !important;
+    align-items: center;
+    display: flex;
+}
+
+.search-text p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
