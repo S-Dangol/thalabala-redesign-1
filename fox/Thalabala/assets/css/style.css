@@ -100,26 +100,6 @@ body {
     color: black;
 }
 
-.login {
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-}
-
-.login a {
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.login i {
-    font-size: 25px;
-    border: 1px solid #ff0000;
-    color: #ff0000;
-    margin-bottom: 0px;
-    padding: 10px 12px;
-    border-radius: 100%;
-}
-
 .signup {
     margin-bottom: 0px;
     white-space: nowrap;

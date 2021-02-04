@@ -83,36 +83,37 @@
 
                 </div>
                 <div class="login ">
-                    <div id='dropdown_menu' class="">
-                        <ul class="">
-                            <li class='detail'><a href='#'><span>Login</span></a>
-                                <ul class="rounded umm">
-                                    <li class="login-btn-fb ">
-                                        <a href="#"><i class="fab fa-facebook-f"></i> Sign in with Facebook</a>
+                    <button class="open-button" onclick="openForm()">Login</button>
+                    <div class="form-popup" id="myForm" style="display: none;">
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Login</h1>
 
-                                    </li>
-                                    <li class="login-btn-gm ">
-                                        <a href="#"><i class="fab fa-google-plus-square"></i> Sign in with Facebook</a>
-                                    </li>
-                                    <li>
-                                        <hr>
-                                    </li>
-                                    <p>Username</p>
-                                    <li><input type="text" placeholder="Username"></input>
-                                    </li>
-                                    <p>Password</p>
-                                    <li><input type="password" placeholder="Password"></input>
-                                    </li>
-                                    <li class="login-btn"><input type="submit"></input><input type="reset"></input>
-                                    </li>
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
 
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
 
-                                </ul>
-                            </li>
-                        </ul>
+                            <button type="submit" class="btn">Login</button>
+
+                        </form>
+                        <div class="or">
+                            <hr>
+                            <a href="#" class="fb btn">
+                                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                            </a>
+
+                            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                                </i> Login with Google+
+                              </a>
+                        </div>
                     </div>
-                    <a href="#">Sign in</a>
 
+
+
+                </div>
+                <div class="signup-link">
+                    <a href="#">Sign in</a>
                 </div>
             </div>
         </div>
@@ -193,24 +194,17 @@
     <script src="jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 25,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
+    <script>
+        function openForm() {
+            var x = document.getElementById("myForm");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
             }
-        })
+        }
     </script>
+
 </body>
 
 </html>
