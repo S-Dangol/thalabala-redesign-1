@@ -310,7 +310,6 @@ body {
 }
 
 .login button {
-    width: 250px !important;
     height: 100% !important;
     border: 0;
     background: none;
@@ -398,7 +397,6 @@ body {
 .form-container .btn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -455,17 +453,19 @@ body {
 }
 
 .signup-form {
-    width: 480px;
-    margin: 0 auto;
-    padding: 30px 0;
+    height: 815px;
+    margin: 0 0;
+    overflow: hidden;
+    ;
 }
 
 .signup-form form {
     border-radius: 5px;
     margin-bottom: 20px;
     background: #fff;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     padding: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .signup-form a {
@@ -566,3 +566,26 @@ body {
 
 
 /*  */
+
+.zxc>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.zxc {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    height: 811px;
+    border-radius: 4px;
+}
+
+.signup-banner {
+    height: 811px;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.zxc2>* {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}

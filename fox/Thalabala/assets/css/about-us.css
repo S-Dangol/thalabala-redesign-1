@@ -1,0 +1,63 @@
+.aboutus-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.aboutus-banner h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img-au {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 2.5px);
+    -webkit-backdrop-filter: blur( 2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/*  */
+
+.aboutus-body {
+    background-image: url('../img/bg2.png');
+    background-position: center;
+    background-size: cover;
+    margin-top: -15px;
+}
+
+.aboutus-content {
+    padding: 100px 0;
+}
+
+.aboutus-head {
+    height: 110px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    margin-bottom: 10px;
+    color: white;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 2.5px);
+    -webkit-backdrop-filter: blur( 2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 10px 15px;
+}
