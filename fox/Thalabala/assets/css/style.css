@@ -525,3 +525,23 @@ a:link {
     font-size: 18px;
     font-weight: 500;
 }
+
+.zx {
+    color: #f05454;
+}
+
+.push-front {
+    z-index: 20;
+}
+
+.full-push {
+    z-index: 35 !important;
+}
+
+.push-back {
+    z-index: 30 !important;
+}
+
+.testcs {
+    top: -100px;
+}

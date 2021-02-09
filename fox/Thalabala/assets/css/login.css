@@ -589,3 +589,7 @@ body {
     margin-left: 5px !important;
     margin-right: 5px !important;
 }
+
+.button-font-color-green {
+    color: #4CAF50;
+}
