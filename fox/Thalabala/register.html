@@ -29,91 +29,93 @@
 <body>
     <div class="wrapper">
         <!-- header start -->
-        <nav class="navbar1 navbar navbar-expand-lg navbar-dark " aria-label="Ninth navbar example">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-between header-logo">
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/Group 49.png" class="img-fluid logo" alt=""></a>
-                    <div class="collapse navbar-collapse menu w-auto" id="navbarsExample07XL">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item active">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Search.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutus.html">About Us </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
+        <div class="head-wrapper">
+            <nav class="navbar1 navbar navbar-expand-lg navbar-dark " aria-label="Ninth navbar example">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-between header-logo">
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/Group 49.png" class="img-fluid logo" alt=""></a>
+                        <div class="collapse navbar-collapse menu w-auto" id="navbarsExample07XL">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Search.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="aboutus.html">About Us </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
 
-                        </ul>
-                    </div>
-                    <div class="nrp">
-                        <a class="cart_Div me-2"><i class="fas fa-shopping-cart"></i></a>
-                        <p>NRP ~ 1200.00</p>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="catagory navbar2 navbar container-fluid shadow-sm p-3 mb-3 bg-white rounded justify-content-between align-items-center">
-            <div class="container">
-                <div class="cata-bar">
-                    <div class="btn-group">
-                        <button class="btn btn-secondary btn-lg" type="button">
-                     All Category
-                    </button>
-                        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split bars" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-bars"></i>
-                    </button>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="search-bar shadow-sm rounded">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-0 rounded" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-                    </div>
-
-                </div>
-                <div class="login ">
-                    <button class="open-button" onclick="openForm()">Login</button>
-                    <div class="form-popup" id="myForm" style="display: none;">
-                        <form action="/action_page.php" class="form-container">
-                            <h1>Login</h1>
-
-                            <label for="email"><b>Email</b></label>
-                            <input type="text" placeholder="Enter Email" name="email" required>
-
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <button type="submit" class="btn">Login</button>
-
-                        </form>
-                        <div class="or">
-                            <hr>
-                            <a href="#" class="fb btn">
-                                <i class="fab fa-facebook-f me-2"></i> Login with Facebook
-                            </a>
-
-                            <a href="#" class="google btn">
-                                <i class="fab fa-google-plus-g me-1"></i> Login with Google+
-                            </a>
+                            </ul>
+                        </div>
+                        <div class="nrp">
+                            <a class="cart_Div me-2"><i class="fas fa-shopping-cart"></i></a>
+                            <p>NRP ~ 1200.00</p>
                         </div>
                     </div>
-
-
-
                 </div>
-                <div class="signup-link">
-                    <a href="#">Sign in</a>
+            </nav>
+            <div class="catagory navbar2 navbar container-fluid shadow-sm p-3 mb-3 bg-white rounded justify-content-between align-items-center">
+                <div class="container">
+                    <div class="cata-bar">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-lg" onclick="search()" type="button">
+                         All Category
+                        </button>
+                            <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split bars" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-bars"></i>
+                        </button>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search-bar shadow-sm rounded">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-0 rounded" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                        </div>
+
+                    </div>
+                    <div class="login ">
+                        <button class="open-button" onclick="openForm()">Login</button>
+                        <div class="form-popup" id="myForm" style="display: none;">
+                            <form action="/action_page.php" class="form-container">
+                                <h1>Login</h1>
+
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                <button type="submit" class="btn">Login</button>
+
+                            </form>
+                            <div class="or">
+                                <hr>
+                                <a href="#" class="fb btn">
+                                    <i class="fab fa-facebook-f me-2"></i> Login with Facebook
+                                </a>
+
+                                <a href="#" class="google btn">
+                                    <i class="fab fa-google-plus-g me-1"></i> Login with Google+
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="signup-link">
+                        <a href="register.html">Sign in</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,7 +156,7 @@
                                     <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
                                 </div>
                                 <div class="or-seperator"><b>or</b></div>
-                                <div class="text-center">Already have an account? <button class="border-0 bg-white button-font-color-green" onclick="openForm()"> Login here</button></div>
+                                <div class="text-center">Already have an account? <button class=""> Login here</button><a href="#">Login here</a></div>
                             </form>
                         </div>
                     </div>
@@ -190,10 +192,6 @@
                         </p>
                     </div>
                 </div>
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                    © 2020 Copyright:
-                    <a class="m-0 zx" href="https://Thalabala.com/">Thalabala.com</a>
-                </div>
             </div>
         </div>
     </div>
@@ -212,6 +210,10 @@
             } else {
                 x.style.display = "none";
             }
+        }
+
+        function search() {
+            location.href = 'search.html';
         }
     </script>
 

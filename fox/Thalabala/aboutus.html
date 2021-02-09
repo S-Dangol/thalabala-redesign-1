@@ -27,7 +27,7 @@
 <body>
     <div class="wrapper">
         <!-- header start -->
-        <div class="header-wrapper">
+        <div class="head-wrapper">
             <nav class="navbar1 navbar navbar-expand-lg navbar-dark " aria-label="Ninth navbar example">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between header-logo">
@@ -60,7 +60,7 @@
                 <div class="container">
                     <div class="cata-bar">
                         <div class="btn-group">
-                            <button class="btn btn-secondary btn-lg" type="button">
+                            <button class="btn btn-secondary btn-lg" onclick="search()" type="button">
                          All Category
                         </button>
                             <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split bars" data-bs-toggle="dropdown" aria-expanded="false">
@@ -116,8 +116,6 @@
                     </div>
                 </div>
             </div>
-            <!-- header end-->
-
         </div>
         <!-- header end-->
         <!-- body -->
@@ -198,7 +196,7 @@
     <script src="jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+    <script type="text/javascript ">
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 25,
@@ -215,5 +213,18 @@
                 }
             }
         })
+
+        function openForm() {
+            var x = document.getElementById("myForm");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function search() {
+            location.href = 'search.html';
+        }
     </script>
 </body>
